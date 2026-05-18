@@ -1,0 +1,151 @@
+export type Member = {
+  id: string;
+  name: string;
+  company: string;
+  role: "Core Council" | "Performance Board" | "Operator Seat" | "Member";
+  revenueGrowth: number;
+  productVelocity: number;
+  capitalRaised: number;
+  netWorthDelta: number;
+  strategicLeverage: number;
+  consistency: number;
+  contribution: number;
+  reputationTrust: number;
+  focusScore: number;
+  executionStreak: number;
+  isCoreCouncil?: boolean;
+  isBadActor?: boolean;
+};
+
+export const membersSeed: Member[] = [
+  {
+    id: "m-01",
+    name: "Aria Vale",
+    company: "SignalForge",
+    role: "Core Council",
+    revenueGrowth: 92,
+    productVelocity: 90,
+    capitalRaised: 76,
+    netWorthDelta: 75,
+    strategicLeverage: 93,
+    consistency: 94,
+    contribution: 88,
+    reputationTrust: 95,
+    focusScore: 97,
+    executionStreak: 92,
+    isCoreCouncil: true,
+  },
+  {
+    id: "m-02",
+    name: "Cade Rowan",
+    company: "AtlasLoop",
+    role: "Performance Board",
+    revenueGrowth: 98,
+    productVelocity: 91,
+    capitalRaised: 85,
+    netWorthDelta: 90,
+    strategicLeverage: 79,
+    consistency: 73,
+    contribution: 49,
+    reputationTrust: 46,
+    focusScore: 84,
+    executionStreak: 79,
+    isBadActor: true,
+  },
+  {
+    id: "m-03",
+    name: "Nora Stein",
+    company: "GridLume",
+    role: "Performance Board",
+    revenueGrowth: 86,
+    productVelocity: 87,
+    capitalRaised: 67,
+    netWorthDelta: 72,
+    strategicLeverage: 80,
+    consistency: 90,
+    contribution: 90,
+    reputationTrust: 92,
+    focusScore: 89,
+    executionStreak: 85,
+  },
+  {
+    id: "m-04",
+    name: "Eli Mercer",
+    company: "RivetOS",
+    role: "Operator Seat",
+    revenueGrowth: 67,
+    productVelocity: 95,
+    capitalRaised: 61,
+    netWorthDelta: 69,
+    strategicLeverage: 83,
+    consistency: 88,
+    contribution: 91,
+    reputationTrust: 88,
+    focusScore: 92,
+    executionStreak: 89,
+  },
+  {
+    id: "m-05",
+    name: "Maya Quinn",
+    company: "PioneerArc",
+    role: "Operator Seat",
+    revenueGrowth: 74,
+    productVelocity: 80,
+    capitalRaised: 79,
+    netWorthDelta: 81,
+    strategicLeverage: 77,
+    consistency: 84,
+    contribution: 74,
+    reputationTrust: 83,
+    focusScore: 87,
+    executionStreak: 82,
+  },
+  {
+    id: "m-06",
+    name: "Jonas Park",
+    company: "Northframe",
+    role: "Member",
+    revenueGrowth: 70,
+    productVelocity: 76,
+    capitalRaised: 64,
+    netWorthDelta: 66,
+    strategicLeverage: 71,
+    consistency: 85,
+    contribution: 95,
+    reputationTrust: 91,
+    focusScore: 90,
+    executionStreak: 88,
+  },
+  {
+    id: "m-07",
+    name: "Lena Cho",
+    company: "NovaPilot",
+    role: "Member",
+    revenueGrowth: 58,
+    productVelocity: 62,
+    capitalRaised: 40,
+    netWorthDelta: 55,
+    strategicLeverage: 60,
+    consistency: 66,
+    contribution: 53,
+    reputationTrust: 70,
+    focusScore: 68,
+    executionStreak: 62,
+  },
+  {
+    id: "m-08",
+    name: "Theo Banks",
+    company: "CipherPeak",
+    role: "Member",
+    revenueGrowth: 83,
+    productVelocity: 78,
+    capitalRaised: 74,
+    netWorthDelta: 82,
+    strategicLeverage: 84,
+    consistency: 79,
+    contribution: 72,
+    reputationTrust: 81,
+    focusScore: 85,
+    executionStreak: 86,
+  },
+];
