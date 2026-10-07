@@ -59,49 +59,49 @@ Generated from this repository's own source tree: every count, route and module 
 #### Entry points
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/terminal-dark-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/terminal-dark-light.svg">
-  <img alt="Entry points diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/terminal-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/terminal-reduced.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/terminal-light.svg">
+  <img alt="Entry points diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/terminal.svg">
 </picture>
 
 #### Modules
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/architecture-dark-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/architecture-dark-light.svg">
-  <img alt="Modules diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/architecture-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/architecture-reduced.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/architecture-light.svg">
+  <img alt="Modules diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/architecture.svg">
 </picture>
 
 #### Routes
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/data_flow-dark-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/data_flow-dark-light.svg">
-  <img alt="Routes diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/data_flow-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/data_flow-reduced.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/data_flow-light.svg">
+  <img alt="Routes diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/data_flow.svg">
 </picture>
 
 #### Composition
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/component_map-dark-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/component_map-dark-light.svg">
-  <img alt="Composition diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/component_map-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/component_map-reduced.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/component_map-light.svg">
+  <img alt="Composition diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/component_map.svg">
 </picture>
 
 #### Build and tests
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/build-dark-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/build-dark-light.svg">
-  <img alt="Build and tests diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/build-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/build-reduced.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/build-light.svg">
+  <img alt="Build and tests diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/build.svg">
 </picture>
 
 #### Identity object
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/footer-dark-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/footer-dark-light.svg">
-  <img alt="Identity object diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/footer-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/footer-reduced.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/footer-light.svg">
+  <img alt="Identity object diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/footer.svg">
 </picture>
 
 <!-- TRILLIONX:presentation:end -->
