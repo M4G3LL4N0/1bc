@@ -1,127 +1,95 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/hero-reduced.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero/hero-light.svg">
-    <img src="assets/hero/hero-motion.svg" alt="1BC — animated project plate showing policy &rarr; control &rarr; evidence. Motion depicts this project's real state transition." width="100%">
-  </picture>
-</p>
+# 1bc
 
-# 1BC
+> Venture in venture studio exploring a clearer product direction. Built in TypeScript on Next.js. 16 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.
 
-**STATUS: LAUNCH-SITE SCAFFOLD** — routes exist, product surface does not.
+The implementation summary below is intentionally conservative. Claims from NORTHSTAR are not presented as shipped functionality.
 
-1BC is a launch site. The pages below resolve so portfolio and navigation
-links work, but they are placeholder routes rather than shipped features.
+- [GitHub repository](https://github.com/M4G3LL4N0/1bc)
+- [Project site](https://1bc-public.vercel.app/)
 
-That is stated here rather than implied by a set of pretty pages. A reader who
-mistakes scaffolding for a product wastes their time; a reader who is told
-immediately can decide whether to keep looking.
+<!-- NOAERTH_IMAGE_SLOT: 1bc/hero -->
 
-## Routes present
+## What it is
 
-`/about`, `/contact`, `/dashboard`, `/governance`, `/page.tsx`, `/pricing`
+Venture in venture studio exploring a clearer product direction. Built in TypeScript on Next.js. 16 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.
 
-## Status
+This repository is part of the NOAERTH venture ecosystem. The current public-facing evidence identifies it as a prototype / active development rather than a production-ready system.
 
-| | |
-| --- | --- |
-| Product surface | placeholder routes only |
-| Tests | none |
-| CI | none |
-| Real content | pending |
+## Capabilities
 
-## Why it exists
+### Available evidence
 
-Every venture in this portfolio has a public entry point. Where the product is
-not ready, the entry point is labelled a scaffold rather than filled with
-claims it cannot support. This repository will be replaced with real content
-when there is something real to show.
+- The repository contains the implementation and documentation associated with the project description above.
+- The technology signals currently visible in the local project are listed in the technical notes below.
+- No additional capability is asserted here without a direct implementation reference.
 
----
+### Experimental or planned
 
-Part of the DUNG30N5 × NOAERTH portfolio. Repository:
-[`M4G3LL4N0/1bc`](https://github.com/M4G3LL4N0/1bc).
+Roadmap intent is deliberately not represented as shipped functionality. Review NORTHSTAR and source implementation together before adding future-facing claims.
 
-<!-- TRILLIONX:presentation:begin -->
+<!-- NOAERTH_IMAGE_SLOT: 1bc/workflow -->
 
-### Animated surfaces
+## How it works
 
-Generated from this repository's own source tree: every count, route and module below was measured, not written by hand.
+The current evidence supports a repository-level application or tool workflow, but does not provide enough verified detail in the Part 1 record to publish a component-level architecture diagram. The architecture slot is reserved for a deterministic diagram after the source flow is reviewed.
 
-#### Identity
+<!-- NOAERTH_IMAGE_SLOT: 1bc/architecture -->
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/hero-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/hero-light.svg">
-  <img alt="Identity diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/hero-motion.svg">
-</picture>
+## Quick start
 
-#### Entry points
+### Prerequisites
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/terminal-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/terminal-light.svg">
-  <img alt="Entry points diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/terminal-motion.svg">
-</picture>
+- A runtime suitable for `Node.js`.
+- A clean checkout of this repository.
 
-#### Modules
+### Install
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/architecture-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/architecture-light.svg">
-  <img alt="Modules diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/architecture-motion.svg">
-</picture>
+```sh
+pnpm install
+```
 
-#### Routes
+### Run locally
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/data_flow-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/data_flow-light.svg">
-  <img alt="Routes diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/data_flow-motion.svg">
-</picture>
+```sh
+pnpm run dev
+```
 
-#### Composition
+### Build
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/component_map-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/component_map-light.svg">
-  <img alt="Composition diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/component_map-motion.svg">
-</picture>
+```sh
+pnpm run build
+```
 
-#### Build and tests
+Commands are included only when they were detected in the repository manifest; verify environment-specific requirements before deployment.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/build-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/build-light.svg">
-  <img alt="Build and tests diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/build-motion.svg">
-</picture>
+## Technical notes
 
-#### Identity object
+- **Primary language:** JavaScript/TypeScript
+- **Runtime:** Node.js
+- **Package manager:** pnpm
+- **Framework and integration signals:** Go, Next.js, Rust
+- **Entry-point signals:** package.json
+- **Test evidence:** TEST_PLAN.md
+- **Repository topics:** `noaerth`, `web-application`, `dung30n5`, `app`, `components`, `next-js`, `prototype`, `react`
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/footer-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/footer-light.svg">
-  <img alt="Identity object diagram for 1bc" src="https://raw.githubusercontent.com/M4G3LL4N0/1bc/main/.github-art/surfaces/footer-motion.svg">
-</picture>
+## Status and roadmap
 
-<!-- TRILLIONX:presentation:end -->
+**Current status:** Prototype / active development.
 
-<!-- TRILLIONX:evidence:begin -->
+**Current:** The repository and its documented implementation are available for inspection.
 
-## What is measurable here
+**Next:** Reconcile the README, source behavior, and safe public product language before adding deeper examples or diagrams.
 
-Generated by `.github-art` from the source tree at publish time.
+**Future:** Product direction is maintained separately and must not be read as a shipped feature list.
 
-| Signal | Value |
-| --- | --- |
-| HTTP routes | 16 |
-| Entry points | 1 |
-| Module roots | 3 |
-| Test files | 0 |
-| CI workflows | 0 |
-| Distinctive stack | scaffold only |
-| Status | PROTOTYPE |
-| Evidence confidence | E3 |
-| Animated surfaces | 7 |
+## Contributing and license
 
-<!-- TRILLIONX:evidence:end -->
+Follow the repository's existing contribution and licensing files where present. This README does not invent an open-source license or contribution policy.
+
+## Visual documentation
+
+Image slots are intentionally comments until authentic screenshots, deterministic diagrams, or approved conceptual visuals exist. No absent image file is referenced.
+
+## NOAERTH
+
+[NOAERTH](https://www.noaerth.com) is the venture ecosystem associated with this project.
